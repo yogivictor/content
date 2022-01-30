@@ -287,7 +287,7 @@ The following simple example illustrates using the DOM {{domxref("Document")}} A
         <option value="lightgrey">gray</option>
       </select>
       <p><b><code>link</code></b></p>
-      <select onChange="setBodyAttr('link',
+      <select onChange="setBodyAttr('color',
         this.options[this.selectedIndex].value);">
         <option value="blue">blue</option>
         <option value="green">green</option>
